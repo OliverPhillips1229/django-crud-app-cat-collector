@@ -1,7 +1,5 @@
 from django.shortcuts import render
 
-# Import HttpResponse to send text-based responses
-
 # Define the home view function
 def home(request):
     return render(request, 'home.html')
